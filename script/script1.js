@@ -1,7 +1,6 @@
-// Função para criar o efeito de chuva
 function rain() {
     let quantidade = 50;
-    const rainContainer = document.querySelector('.rain');
+    const rainContainer = document.querySelector(".rain");
     
     // Remove elementos existentes
     rainContainer.innerHTML = '';
@@ -14,20 +13,17 @@ function rain() {
     }
 }
 
-// Função para alternar a animação da chuva
 function toggleRain() {
-    const rainContainer = document.querySelector('.rain');
-    if (rainContainer.style.display === 'none') {
-        rainContainer.style.display = 'block';
-        document.getElementById('toggleRain').textContent = '';
+    const rainContainer = document.querySelector(".rain");
+    if (rainContainer.style.display === "none") {
+        rainContainer.style.display = "block";
+        document.getElementById("toggleRain").textContent = '';
     } else {
-        rainContainer.style.display = 'none';
-        document.getElementById('toggleRain').textContent = '';
+        rainContainer.style.display = "none";
+        document.getElementById("toggleRain").textContent = '';
     }
 }
 
-// Inicializa o efeito de chuva
 rain();
 
-// Adiciona o evento de clique para o botão de alternar chuva
-document.getElementById('toggleRain').addEventListener('click', toggleRain);
+document.getElementById("toggleRain").addEventListener('click', toggleRain);
