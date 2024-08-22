@@ -1,0 +1,11 @@
+#musicName {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: .2rem;
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 0.10rem;
+}

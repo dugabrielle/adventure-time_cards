@@ -1,0 +1,154 @@
+body {
+    background-image: url("tree-house.png.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  
+  #characters-div {
+    margin: 4rem auto 1rem; 
+    border-radius: 0.5rem; 
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  #font-h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card {
+    border-radius: 0.5rem; 
+    padding: 1rem; 
+    margin: 0.5rem;
+    width: 15rem; 
+    text-align: center;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(1, 48, 108));
+    border: 0.1rem solid gray; /* Usando rem para borda */
+  }
+  
+  .card img {
+    max-width: 15rem; 
+    width: 12rem; 
+    height: 13rem; 
+    object-fit: cover;
+    border-radius: 0.5rem; 
+  }
+  
+  .card h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: white;
+  }
+  
+  .btn {
+    padding-top: 0.05rem; 
+  }
+  
+  #moreCards {
+    width: 9rem;
+    padding: 0.9rem;
+    background-color: #e4f874;
+    border: none;
+    cursor: pointer;
+    border-radius: 2.5rem; 
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  #moreCards:hover {
+    background-color: #dada48;
+  }
+  
+  #moreCards > span {
+    font-weight: 800;
+    font-size: 0.7rem;
+    color: rgb(0, 0, 0);
+  }
+  
+  .container-btn {
+    padding: 1rem;
+  }
+  
+  /* button rain */
+  
+  .rain-control {
+    position: absolute;
+    top: 3rem; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 3rem; /
+  }
+  
+  .rain-control button {
+    width: 4.25rem; 
+    height: 4.25rem; 
+    border-radius: 50%;
+    background: url(bee2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 375px) {
+    h3 {
+      font-size: 0.7rem;
+    }
+  
+    #characters-div {
+      margin: 3rem auto;
+    }
+  
+    .rain-control {
+      padding: 2.5rem; 
+    }
+  
+    .rain-control button {
+      width: 3.6rem; 
+      height: 3.6rem; 
+    }
+  
+    #musicName {
+      font-size: 0.9rem;
+    }
+  }
+  

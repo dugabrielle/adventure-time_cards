@@ -1,0 +1,74 @@
+[
+        {
+            "name": "Finn",
+            "species": "Human",
+            "sex": "Male",
+            "img": "images/finn.png"
+        },
+        {
+            "name": "Jake",
+            "species": "Dog/Shape-shifter Hybrid",
+            "sex": "Male",
+            "img": "images/jake-the-dog.png"
+        },
+        {
+            "name": "Princess Bubblegum",
+            "species": "Gum Golem",
+            "sex": "Female",
+            "img": "images/bonnibel.png"
+        },
+        {
+            "name": "Marceline",
+            "species": "Vampire/Demon Hybrid",
+            "sex": "Female",
+            "img": "images/marceline.png"
+        },
+        {
+            "name": "BMO",
+            "species": "MO (Model 100 volt/60)",
+            "sex": "N/A",
+            "img": "images/bmo.png"
+        },
+        {
+            "name": "Ice King",
+            "species": "Ice Wizard",
+            "sex": "Male",
+            "img": "images/iceking.png.png"
+        },
+        {
+            "name": "Lumpy Space Princess",
+            "species": "Lumpy Space Person",
+            "sex": "Female",
+            "img": "images/lsp.png"
+        },
+        {
+            "name": "Lady",
+            "species": "Rainicorn",
+            "sex": "Female",
+            "img": "images/lady.png"
+        },
+        {
+            "name": "Flame Princess",
+            "species": "Flame Person",
+            "sex": "Female",
+            "img": "images/phoebe.png"
+        },
+        {
+            "name": "Peppermint Butler",
+            "species": "Candy",
+            "sex": "Male",
+            "img": "images/peppermint.jpg"
+        },
+        {
+            "name": "Lich",
+            "species": "Primordial Monster",
+            "sex": "Male",
+            "img": "images/lich.png"
+        },
+        {
+            "name": "Prismo",
+            "species": "Cosmic Entity",
+            "sex": "Male",
+            "img": "images/prismo.png"
+        }
+    ]
