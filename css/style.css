@@ -12,7 +12,7 @@ body {
   }
   
   #characters-div {
-    margin: 4rem auto 1rem; 
+    margin: 4.5rem auto 1rem; 
     border-radius: 0.5rem; 
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.3);
@@ -128,27 +128,5 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
-  @media (max-width: 375px) {
-    h3 {
-      font-size: 0.7rem;
-    }
-  
-    #characters-div {
-      margin: 3rem auto;
-    }
-  
-    .rain-control {
-      padding: 2.5rem; 
-    }
-  
-    .rain-control button {
-      width: 3.6rem; 
-      height: 3.6rem; 
-    }
-  
-    #musicName {
-      font-size: 0.9rem;
-    }
-  }
-  
+
+

@@ -28,7 +28,7 @@ function createCard(character) {
     return card;
 }
 function fetchCharacters() {
-    fetch("https://dugabrielle.github.io/characters-json-repo/characters.json")
+    fetch("characters.json")
         .then(response => response.json())
         .then(characters => {
             allCharacters = characters;
@@ -51,7 +51,7 @@ function displayCards() {
     document.querySelector("#moreCards").style.display = (initialCount < allCharacters.length) ? "block" : "none";
 }
 
-function moreCards() {
+function loadCards() {
     const end = Math.min(initialCount + totalCards, allCharacters.length);
     for (let i = initialCount; i < end; i++) {
         const character = allCharacters[i];
