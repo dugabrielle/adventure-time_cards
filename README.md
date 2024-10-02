@@ -6,7 +6,5 @@
 
 #### Falta fazer ajustes de responsividade, adicionar mais personagens e tornar os cards mais dinâmicos.
 
-### Explore: [Adventure Time Cards](https://adventure-time-cards.vercel.app/)
-
 https://github.com/user-attachments/assets/9ad07fbd-f6ac-4da7-89c7-27b3710434a1
 
